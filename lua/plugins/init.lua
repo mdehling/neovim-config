@@ -16,6 +16,7 @@ packer.use{'wbthomason/packer.nvim'}
 packer.use{'gpanders/editorconfig.nvim'}
 
 require('plugins.nvim-tree')
+require('plugins.nvim-cmp')
 
 if not configured then
     packer.sync()
